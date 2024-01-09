@@ -9,5 +9,5 @@ const appSlice = createSlice({
   reducers: appReducer
 });
 
-export const { toggleMenu} = appSlice.actions
+export const { toggleMenu, closeMenu } = appSlice.actions
 export default appSlice.reducer;

@@ -1,7 +1,9 @@
 const appReducer = {
   toggleMenu: (state) => {
-    debugger;
     state.isMenuOpen = !state.isMenuOpen
+  },
+  closeMenu: (state) => {
+    state.isMenuOpen = false
   }
 };
 
